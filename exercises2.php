@@ -29,7 +29,6 @@
  $valArr = countWords($str);
 
 ?>
-<!-- page start-->
 <div class="container">
  <h1>How many words were input: <?php echo  count($valArr);?></h1>
 <div class="row list-group-item active">
