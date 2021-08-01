@@ -6,6 +6,8 @@
 ?>
 <!DOCTYPE html>
 <html>
+ <title>PHP Assesment Excercise 1</title>
+
 <body>
 <?php
 $val = isBitten();
