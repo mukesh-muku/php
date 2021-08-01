@@ -18,16 +18,17 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-8">
-                <div class="card">
-                  <div class="card-body">
-                    <h5 class="card-title">UserName :- <?php echo $_SESSION['username']?></h5>
-                    <p class="card-text">Phone :- <?php echo $_SESSION['phone']?></p>
+			                    <div class="form-group">
+                        <label>UserName :- <?php echo $_SESSION['username']?></label>
+                     </div>
+
+                    <div class="form-group">
+                        <label>Phone :- <?php echo $_SESSION['phone']?></label>
+                    </div>  
                     <a href="logout.php" class="btn btn-primary">Logout</a>
                   </div>
                 </div>
             </div>
-        </div>       
-    </div>
-
+     
 </body>
 </html>
